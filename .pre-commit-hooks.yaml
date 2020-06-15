@@ -35,12 +35,12 @@
     entry: '\beval\('
     language: pygrep
     types: [python]
--   id: python-no-nocommit
+-   id: no-commit-keywords
     name: check for nocommit
     description: 'Block commits if nocommit is present anywhere in source'
     entry: 'nocommit'
     language: pygrep
-    types: [python]
+    types: [text]
 -   id: python-no-log-warn
     name: use logger.warning(
     description: 'A quick check for the deprecated `.warn()` method of python loggers'
